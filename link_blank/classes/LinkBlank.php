@@ -11,22 +11,22 @@
  */
 
 class LinkBlank extends \Frontend {
-	public function linkBlankInserttag($strTag) {
-		$arrSplit = explode("::", $strTag);
+    public function linkBlankInserttag($strTag) {
+        $arrSplit = explode("::", $strTag);
 
-		if($arrSplit[0] == "link_blank") {
-			if(isset($arrSplit[1])) {
+        if($arrSplit[0] == "link_blank") {
+            if(isset($arrSplit[1])) {
 
-				$arrPage = \PageModel::findPublishedByIdOrAlias($arrSplit[1]);
+                $arrPage = \PageModel::findPublishedByIdOrAlias($arrSplit[1]);
 
-				if (!is_null($arrPage)) {
-					$strUrl = $this->generateFrontendUrl($arrPage->current()->row());
+                if (!is_null($arrPage)) {
+                    $strUrl = $this->generateFrontendUrl($arrPage->current()->row());
 
-					return sprintf("<a href=\"%s\" target=\"_blank\">%s</a>", $strUrl, $arrPage->title);
-				}
-			}
-		}
+                    return sprintf("<a href=\"%s\" target=\"_blank\">%s</a>", $strUrl, $arrPage->title);
+                }
+            }
+        }
 
-		return false;
-	}
+        return false;
+    }
 }
