@@ -14,5 +14,5 @@
  */
 ClassLoader::addClasses(array
 (
-    'LinkBlank' => 'system/modules/link_blank/classes/LinkBlank.php',
+    'LinkBlankInserttag' => 'system/modules/link_blank_inserttag/classes/LinkBlankInserttag.php',
 ));

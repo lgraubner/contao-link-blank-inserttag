@@ -5,12 +5,12 @@
  *
  * Copyright (c) 2005-2014 Leo Feyer
  *
- * @package   link_blank
+ * @package   link_blank_inserttag
  * @author    Lars Graubner
  * @license   MIT
  */
 
-class LinkBlank extends \Frontend {
+class LinkBlankInserttag extends \Frontend {
     public function linkBlankInserttag($strTag) {
         $arrSplit = explode("::", $strTag);
 
