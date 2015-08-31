@@ -17,4 +17,4 @@ This inserttag accepts a page id or alias.
 
 ## Installation
 
-Copy the `link_blank` folder to `system/modules` and you are done.
+Copy the `link_blank_inserttag` folder to `system/modules` and you are done.
