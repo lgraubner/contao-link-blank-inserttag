@@ -17,4 +17,4 @@ This inserttag accepts a page id or alias.
 
 ## Installation
 
-Copy the `link_blank_inserttag` folder to `system/modules` and you are done.
+Install via Contao backend or download latest version on [Contao Extension Repository](https://contao.org/erweiterungsliste/view/link_blank_inserttag.html)
