@@ -17,4 +17,4 @@ This inserttag accepts a page id or alias.
 
 ## Installation
 
-Install via Contao backend or download latest version on [Contao Extension Repository](https://contao.org/erweiterungsliste/view/link_blank_inserttag.html)
+Install via Contao backend or download latest version on [Contao Extension Repository](https://contao.org/erweiterungsliste/view/link_blank_inserttag.html).
