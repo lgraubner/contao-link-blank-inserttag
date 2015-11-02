@@ -13,4 +13,4 @@
 /**
  * Hooks
  */
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('LinkBlankInserttag', 'linkBlankInserttag');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('LinkBlankInserttag', 'replaceLinkBlankInserttag');

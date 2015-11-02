@@ -9,7 +9,7 @@
  * @link		https://github.com/lgraubner/contao-link-blank-inserttag
  */
 
-class LinkBlankInserttag extends \Frontend
+class LinkBlankInserttag
 {
 
 	/**
@@ -19,13 +19,13 @@ class LinkBlankInserttag extends \Frontend
 	 *
 	 * @return boolean
 	 */
-	public function linkBlankInserttag($strTag)
+	public function replaceLinkBlankInserttag($strTag)
 	{
 		$arrSplit = explode("::", $strTag);
 
-		if($arrSplit[0] == "link_blank")
+		if ($arrSplit[0] == "link_blank")
 		{
-			if(isset($arrSplit[1]))
+			if( isset($arrSplit[1]))
 			{
 
 				$arrPage = \PageModel::findPublishedByIdOrAlias($arrSplit[1]);
