@@ -23,9 +23,9 @@ class LinkBlankInserttag
 	{
 		$arrSplit = explode("::", $strTag);
 
-		if ($arrSplit[0] == "link_blank")
+		if ($arrSplit[0] == "link_blank" || $arrSplit[0] == "cache_link_blank")
 		{
-			if( isset($arrSplit[1]))
+			if ( isset($arrSplit[1]))
 			{
 
 				$arrPage = \PageModel::findPublishedByIdOrAlias($arrSplit[1]);
